@@ -50,8 +50,8 @@ public class Main {
 
         int bottlesPerTwentyMinutes = bottlesPerMinute * 20;
         int bottlesPerDay = bottlesPerMinute * 60 * 24;
-        int bottlesPerThreeDays = bottlesPerDay * 60 * 24 * 3;
-        int bottlesPerMonth = bottlesPerDay * 60 * 24 * 30;
+        int bottlesPerThreeDays = bottlesPerMinute * 60 * 24 * 3;
+        int bottlesPerMonth = bottlesPerMinute * 60 * 24 * 30;
 
         System.out.printf("За 20 минут машина произвела %s штук бутылок\n", bottlesPerTwentyMinutes);
         System.out.printf("За день машина произвела %s штук бутылок\n", bottlesPerDay);
@@ -108,6 +108,6 @@ public class Main {
 
         System.out.printf("Маша теперь получает %s рублей. Годовой доход вырос на %s рублей\n", mashaNewSalary, mashaDiffSalaryPerYear);
         System.out.printf("Денис теперь получает %s рублей. Годовой доход вырос на %s рублей\n", denisNewSalary, denisDiffSalaryPerYear);
-        System.out.printf("Кристина теперь получает %s рублей. Годовой доход вырос на %s рублей\n", denisNewSalary, kristinaDiffSalaryPerYear);
+        System.out.printf("Кристина теперь получает %s рублей. Годовой доход вырос на %s рублей\n", kristinaNewSalary, kristinaDiffSalaryPerYear);
     }
 }
